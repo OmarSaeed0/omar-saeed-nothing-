@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    border: 0px;
+
+
+}
+
+img{
+    max-width: 100%;
+}
+
+.navbar{
+   
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    background-color: black;
+    
+    
+}
+.left{
+    width: 25%;
+    height: 100px;
+    float: left;
+    margin-left: 120px;
+    padding-top: 35px;
+
+}
+.right{
+    width: 60%;
+    height: 100px;
+    float: left;
+    padding-top: 20px;
+    
+    
+    
+}
+.left img{
+    margin-left: 60px;
+    margin-top: 20px;
+    height: 40px;
+    
+}
+body{
+    height: 2000px;
+}
+.container{
+    margin-top: 120px;
+    height: 400px;
+}
+nav ul{
+    margin: auto;
+    padding-top: 20px;
+    list-style: none;
+    padding-left: 200px;
+    overflow:hidden ;
+}
+nav ul li{
+    display: inline-block;
+    font-size: px;
+    
+    padding-top: 23px;
+    padding-left: 40px;
+    color: white;
+  
+    
+}
+nav ul li a{
+    
+  
+    
+    color: #fff !important;
+    display: block;
+    font-weight: 500;
+    
+   
+    overflow: hidden;
+    
+    position: relative;
+    text-decoration: none;
+    
+
+ 
+ font-size: 20px;
+}
+
+
+body
+{
+  margin: 0;
+  padding: 0;
+}
+@media (min-width:0px)and (max-width:700px)  {
+
+  nav ul{
+    margin: auto;
+    padding-top: 30px;
+    list-style:none ;
+    padding-left: 10px;
+    
+}
+
+  nav ul li{
+    display: -moz-grid-line  ;
+    font-size: 22 px;
+    text-decoration: none;
+    padding: 10px;
+  }
+}
+.bg{
+    background-image: url("banner-3.jpg");
+    width: 100%;
+    height: 850px;
+   background-repeat: no-repeat;
+   
+   background-position: center;
+    
+}
+.contain{
+    padding-left: 180px;
+    padding-top: 170px;
+    font-size: 60px;
+    color: white;
+    
+}
+.contain2{
+    font-size: 20px;
+
+}
+.b1{
+    padding-left: 180px;
+    padding-top: 50px;
+}
+.b1 button{
+    color: white;
+    width: 190px;
+    height: 55px;
+    font-size: 15px;
+    background-color: #FF0066;
+    border-radius: 5px;
+    line-height: 50px;
+    float: left;
+    padding-right: 20px;
+    
+    
+}
+.b2 button{
+    
+    color: white;
+    width: 220px;
+    height: 55px;
+    font-size: 15px;
+    background-color: #FF0066;
+    border-radius: 5px;
+    padding-left: 30px;
+    float: left;
+    margin-left: 30px;
+    border:solid #FF0066;
+    background-color: transparent;
+    
+}
+.b2 button:hover {
+    background-color: #FF0066;
+    transition: 0.3s;
+}
+
